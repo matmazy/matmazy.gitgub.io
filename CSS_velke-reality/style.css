@@ -1,0 +1,347 @@
+header nav > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+.hkontakt {
+    border-bottom: 1px grey solid;
+    padding-bottom: 10px;
+
+
+}
+
+.hkontakt img {
+    width: auto;
+    height: auto;
+}
+
+header a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    color: black;
+    padding-left: 50px;
+}
+
+header nav div img {
+    width: 217px;
+    height: 36px;
+}
+
+.carousel-inner,
+.slide,
+.carousel-item.active {
+    padding: 0;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider form {
+    padding-top: 1.5rem;
+}
+
+.slider form input {
+    border-radius: 3px;
+    border-style: none;
+    width: 20rem;
+    height: 2rem;
+}
+
+.slider form button {
+    margin-left: 2px;
+    background-color: #ff8601;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    height: 2rem;
+}
+
+.slider-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;;
+    color: white;
+}
+
+.typy {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.typy-card img {
+    transition: all 0.3s;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.typy > div {
+    margin: 0 1rem;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.typy-card {
+    cursor: pointer;
+    overflow: hidden;
+    position: absolute;
+    /*widows: 100%;*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.typy-card > div:first-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.typy-card:hover img {
+    transform: scale(1.08);
+}
+
+.typy-card .dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.container {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    color: grey;
+    width: 80%;
+
+}
+
+.nabidka {
+    padding: 0 7rem 3rem 7rem;
+}
+
+.nabidka > div {
+    display: grid;
+}
+
+.nabidka div {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 1rem;
+    border-style: none;
+    border-radius: 0;
+}
+
+.nabidka div div {
+    padding: 1rem 0 2rem 0;
+}
+
+.nabidka button {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #ff8601;
+    border-style: none;
+    border-radius: 3px;
+    height: 4rem;
+    width: 10rem;
+    color: white;
+}
+
+.nabidka > h3 {
+    text-align: center;
+}
+
+.card h3 a {
+    color: #ff8601;
+    text-decoration: none;
+}
+
+.card h3 a:hover {
+    color: #ff8601;
+    text-decoration: underline;
+}
+
+.zkusenosti {
+    padding: 2rem 10rem 5rem 10rem;
+}
+
+.zkusenosti > div {
+    display: flex;
+
+}
+
+.zkusenosti div div {
+    flex: auto;
+}
+
+.zkusenosti h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+
+}
+
+.item-flex {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.item-flex div {
+    flex: auto auto;
+}
+
+.item-flex img {
+    height: 80%;
+    padding-right: 15px;
+}
+
+.item-flex h6 {
+    float: right;
+}
+
+footer {
+    background-color: #191919;
+    color: white;
+}
+
+footer > div {
+    display: flex;
+    padding: 2rem 10rem 5rem 10rem;
+}
+
+.newsletter,
+.odkazy,
+.novinky {
+    flex: 1;
+}
+
+footer button {
+    margin-left: 2px;
+    background-color: #ff8601;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    height: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.odkazy ul{
+    list-style: none;
+}
+.odkazy ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #ff8601; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+@media only screen and (max-width : 640px) {
+    header ul li {
+        float: left;
+        display: inline;
+        text-align: center;
+        /*justify-content: normal;*/
+        border: 1px solid grey;
+        border-radius: 3px;
+        padding: 0 50px ;
+    }
+
+    .typy {
+        display: grid;
+    }
+
+    .typy-card{
+        grid-template-columns: auto;
+        grid-column-gap: 10px;
+        width: 50%;
+        margin: 10px;
+    }
+    .nabidka{
+        display: grid;
+    }
+    .nabidka div{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+    .zkusenosti{
+        display: unset;
+    }
+    .zkusenosti div img{
+        width: 80px;
+        height: 80px;
+    }
+    footer{
+        display: grid;
+    }
+    footer>div{
+        flex: 0;
+        grid-template-columns: 1fr;
+        padding: 10px ;
+    }
+    .newsletter,
+    .odkazy,
+    .novinky {
+        /**float: left;*/
+
+    }
+
+}
