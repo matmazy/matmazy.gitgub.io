@@ -1,0 +1,9 @@
+
+form>div, h2{
+    margin: 1rem 40rem;
+
+}
+textarea{
+    width: 1000px;
+    height: 400px;
+}
