@@ -1,0 +1,171 @@
+.fr, .sc{
+    margin: 0 8rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 4fr;
+}
+.soc,.imgsA,.imgsB,.popis,/*.region,*/.prof,.cena,.recenze{
+    margin: 1rem;
+    padding: 1rem;
+}
+.soc {
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+    border-radius: 1rem;
+    box-shadow: 0px 9.32px 50px rgba(109, 196, 0, 0.15);
+    text-align: center;
+    margin: 1rem 0;
+    padding: 5rem 0;
+}
+.soc img{
+    width: 4rem;
+}
+
+.imgsA{
+    grid-column: 2 / 4;
+    grid-row: 1/3;
+    width: 70%;
+
+}
+
+.popis{
+    grid-column: 4 / 5;
+    grid-row: 1/2;
+}
+.region{
+    grid-column: 4 /5;
+    grid-row: 2/3;
+    width: 120%;
+}
+.region img{
+    width: 90%;
+}
+.imgsB{
+    grid-column: 1 / 4;
+    grid-row: 3/4;
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 0px 9.32px 50px rgba(109, 196, 0, 0.15);
+}
+.imgsB img{
+    width: 3%;
+}
+.prof{
+    grid-column: 4 / 5;
+    grid-row: 3/4;
+    display: flex;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    border-radius: 1rem;
+
+}
+.cena{
+    grid-column: 1 / 4;
+    grid-row: 4/5;
+    display: flex;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    border-radius: 1rem;
+
+}
+.recenze{
+    grid-column: 4 / 5;
+    grid-row: 4/5;
+    display: flex;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    border-radius: 1rem;
+}
+
+
+
+/*.first{
+    width: 25%;
+}
+.sec{
+    width: 5%;
+}*/
+.select{
+    margin: 1rem 0;
+}
+.x,.y,.z{
+    padding: 1rem 5rem;
+    border-bottom: 0.2rem solid #6DC400;
+    color: black;
+    font-weight: bold;
+}
+
+.popis2{
+    display: none;
+    margin: 5rem 16rem;
+}
+.recenze{
+    display: block;
+}
+.video{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+
+
+.sc >h2, .sc>h1{
+    text-align: center;
+    margin: 0.5rem 0;
+}
+.sc>h1{
+    color: #6DC400;
+}
+.select{
+    text-align: center;
+}
+.hodn{
+    margin: 3rem;
+    border-radius: 1rem;
+
+}
+.celkHod{
+    display: flex;
+    text-align: center;
+    margin: 0 29rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+}
+.celkHod p{
+    margin: 0 0.5rem;
+}
+
+
+
+.rec {
+    display: flex;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.a {
+    flex: 1fr;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.a img{
+    width: 75%;
+}
+
+.b {
+    flex: 2fr;
+    margin: 3rem 0;
+}
+
+.c {
+    flex: 5fr;
+    margin: 3rem;
+}
+.c p{
+    margin: 0.5rem 0;
+}
+.video{
+    display: none;
+}

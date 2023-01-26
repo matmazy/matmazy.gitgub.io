@@ -1,0 +1,199 @@
+main {
+
+}
+
+main > form > div {
+    display: flex;
+    margin: 2rem 8rem;
+}
+
+main form div {
+    flex: 1;
+}
+.a, .b{
+    margin: 0 1rem;
+}
+
+.type {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+}
+
+.type > select {
+    padding: 1rem;
+    border: 1px solid #D8E4C8;
+    border-radius: 2rem;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FCFFF9;
+}
+
+.infos {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+}
+
+label>input, label>textarea, label>select{
+    padding: 1rem;
+    border: 1px solid #D8E4C8;
+    border-radius: 2rem;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FCFFF9;
+    margin: 0.5rem 0;
+}
+
+.spec {
+    display: flex;
+}
+.spec label{
+    margin: 0 0.5rem;
+
+}
+
+.q {
+    flex: 2;
+}
+.w {
+    flex: 2;
+}
+.e {
+    flex: 1;
+}
+
+.kPop input{
+    height: 3rem;
+    width: 100%;
+}
+.dPop textarea{
+    height: 6rem;
+    width: 100%;
+}
+/*___________________B____________________*/
+
+.k{
+    display: flex;
+}
+.x,.y{
+    flex: 1;
+}
+.y{
+    display: flex;
+}
+.y>div{
+    flex: 1;
+}
+.imgFoo{
+    padding: 0.5rem 1rem;
+    border: 0.1rem dashed #6DC400;
+    border-spacing: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 1rem 0.5rem;
+}
+.imgFoo img{
+    margin: 0 auto;
+}
+.imgFoo p a{
+    color: #6DC400;
+    text-decoration: none;
+}
+.imgA{
+    height: 20rem;
+    margin-top: 1rem;
+    background-color: white;
+    box-shadow: 12.4817px 20.8029px 55.7795px rgba(79, 141, 0, 0.05);
+    border-radius: 1rem;
+}
+
+.imgB {
+    height: 10rem;
+}
+.o{
+    height: 11rem;
+    flex: 0;
+}
+.tag{
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.tag input{
+    width: 15rem;
+}
+.att{
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    padding: 1rem;
+}
+.p{
+    display: flex;
+}
+.p label{
+    flex: 2;
+    margin: 0 0.5rem;
+}
+.p img{
+    flex: 1;
+}
+.bin{
+    height: 3rem;
+    margin: 1.5rem 0;
+}
+.att>div>a{
+    margin-top: 0.5rem;
+    display: block;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0 1.5rem 1.5rem 0;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+}
+.att>div>a>div{
+    display: flex;
+
+}
+.att>div>a>div>p{
+    text-align: center;
+    padding: 0.7rem 9rem;
+    color: #515151;
+    font-size: 120%;
+}
+
+.btn{
+    padding: 1.5rem 0;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    border-radius: 2rem;
+}
+
+button{
+    background-color: #6DC400;
+    color: #FFFFFF;
+    border: 1px solid #6DC400;
+    border-radius: 2rem;
+    padding: 1rem 5rem;
+    text-align: center;
+    margin: 0 auto;
+}

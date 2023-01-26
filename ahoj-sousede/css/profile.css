@@ -1,0 +1,179 @@
+main {
+    display: flex;
+    margin: 0 8rem;
+}
+
+.s1 {
+    flex: 1;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+
+}
+
+.s1 p {
+    border-bottom: 1px solid rgba(110, 111, 113, 0.35);
+    width: 10rem;
+    text-align: left;
+    padding-left: 5rem;
+
+}
+
+.s2 {
+    flex: 4;
+    box-shadow: 1rem 1rem 10rem rgba(79, 141, 0, 0.25);
+}
+
+.prof > div {
+    text-align: center;
+
+}
+
+.prof > div img {
+    padding: 5px;
+    border: #6DC400 2px solid;
+    border-radius: 50%;
+}
+
+.prof > div p {
+    margin: 0 0 1% 0;
+}
+
+.name {
+    scale: 70%;
+    color: #515151;
+}
+
+.eProf > div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin: 0 17%;
+}
+
+.eProf label, .pass label {
+    margin: 1rem 1rem;
+}
+
+.eProf input, .pass input {
+    padding: 1rem;
+    width: 20rem;
+    height: 1rem;
+    border: 1px solid #D8E4C8;
+    border-radius: 2rem;
+}
+
+.btnSave {
+    background-color: #6DC400;
+    color: #FFFFFF;
+    border: 1px solid #6DC400;
+    border-radius: 2rem;
+    padding: 1rem 6rem;
+    margin: 0 25rem;
+    margin-bottom: 1rem;
+}
+
+.pass form {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.pass label {
+    margin: 1rem 25rem;
+    text-align: left;
+}
+
+.adre > form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adre label {
+    margin: 1rem 25rem;
+    text-align: left;
+}
+
+.adre input {
+    padding: 1rem;
+    width: 20rem;
+    height: 1rem;
+    border: 1px solid #D8E4C8;
+    border-radius: 2rem;
+}
+.hodn{
+    margin: 3rem;
+    border-radius: 1rem;
+
+}
+.sRec {
+    display: flex;
+    margin: 1rem 13rem;
+    text-align: center;
+
+}
+.sRec a{
+    padding: 1rem 5rem;
+    border-bottom: 0.2rem solid #6DC400;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rec {
+    display: flex;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.aktiv{
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    margin: 1rem;
+
+}
+.aktiv>div{
+    flex: 1;
+    margin: auto 0
+}
+.aktiv>img{
+    width: 5rem;
+    border-radius: 1rem;
+    box-shadow: 5.59422px 9.3237px 50px rgba(79, 141, 0, 0.15);
+    margin: 1rem;
+    padding: 1rem;
+}
+.aktiv input{
+   height: 1rem ;
+    width: 2rem;
+}
+.price p{
+    border: 0.1rem solid #6DC400;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.a {
+    flex: 1fr;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.a img{
+    width: 75%;
+}
+
+.b {
+    flex: 2fr;
+    margin: 3rem 0;
+}
+
+.c {
+    flex: 5fr;
+    margin: 3rem;
+}
+.c p{
+   margin: 0.5rem 0;
+}

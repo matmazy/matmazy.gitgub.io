@@ -1,0 +1,129 @@
+main{
+    font-size: 100%;
+}
+
+main>div{
+    display: flex;
+}
+.fr{
+    margin: 1rem 8rem 0 8rem;
+    padding-left: 3rem;
+    text-align: center;
+    flex: 0.5;
+}
+.fr h2{
+    font-size: 110%;
+
+}
+.fr h1{
+    margin-bottom:1rem;
+    color: #6DC400;
+}
+.fb {
+    border: 1px solid #1877f2;
+    border-radius: 2.5rem;
+    background-color: #1877f2;
+    margin: 1rem 0;
+    text-align: center;
+}
+.fb a{
+    text-decoration: none;
+}
+.fb img{
+    height: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+    padding: 0.5rem;
+    text-align: left;
+    float: left;
+}
+.fb p {
+    color: #FFFFFF;
+
+}
+.g{
+    border: 1px solid #FFFFFF;
+    border-radius: 2.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1rem 0;
+    text-align: center;
+}
+.g a{
+    text-decoration: none;
+}
+.g img{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+    padding: 0.5rem;
+    text-align: left;
+    float: left;
+    height: 2rem;
+}
+.g p{
+    color: black;
+    text-decoration: none;
+}
+
+form>div>label{
+    text-align: left;
+    float: left;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+form>div>label>input, form select{
+    padding: 1rem;
+    border:1px solid #D8E4C8;
+    border-radius: 2rem;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FCFFF9;
+}
+.c{
+    margin: 12rem 0 1rem 0;
+}
+.ot{
+    margin: 1rem;
+}
+.ot h2{
+    font-size: 120%;
+}
+.btnY{
+    padding: 0.5rem 3rem;
+    border: 0.1rem #6DC400 solid;
+    background-color: #eff8e4;
+    border-radius: 1rem;
+}
+.btnN{
+    padding: 0.5rem 3rem;
+    border: 0.1rem #ea5757 solid;
+    background-color: #fbeded;
+    border-radius: 1rem;
+
+}
+.check a{
+    text-decoration: none;
+    color: #6DC400;
+}
+
+.cUc{
+    text-align: left;
+}
+.cUc>a{
+    text-decoration: none;
+    color: #6DC400;
+}
+.btn{
+    background-color: #6DC400;
+    color: #FFFFFF;
+    border: 1px solid #6DC400;
+    border-radius: 2rem;
+    padding: 1rem 5rem;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.sc{
+    flex: 1;
+}

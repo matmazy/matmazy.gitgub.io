@@ -1,0 +1,165 @@
+.imgTop {
+    background-image: url("../data/imgPujcovna.svg");
+    background-size: cover;
+    padding-top: 3rem;
+
+}
+
+.search {
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0 8rem 3rem 8rem;
+    padding: 1rem;
+    border-radius: 4rem;
+
+
+}
+
+.search select, .search input, .search button {
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 2rem;
+    border: 0.05rem solid #D8E4C8;
+    background-color: #FCFFF9;
+}
+
+.search select {
+    float: left;
+    width: 10rem;
+}
+
+.search input {
+    background-image: url("../data/icoQuestion.svg");
+    background-repeat: no-repeat;
+    background-position: 0.5rem 0.8rem;
+    padding-left: 2.5rem;
+    background-color: #FCFFF9;
+    width: 50rem; /*28*/
+}
+
+.search button {
+    float: right;
+    background-color: #6DC400;
+    color: #FFFFFF;
+    text-align: center;
+    width: 15rem;
+}
+
+.nadpis {
+    margin: 5rem;
+}
+
+.nadpis h2 {
+    text-align: center;
+}
+
+.nadpis h1 {
+    color: #6DC400;
+    text-align: center;
+}
+
+.cat {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 8rem;
+
+}
+
+.cat a {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    box-shadow: 0 0.1rem 0.5rem rgba(109, 196, 0, 0.1);
+    display: flex;
+
+}
+
+.cat a p {
+    margin: auto 1rem;
+}
+
+.sort form {
+    display: flex;
+    margin: 0 8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.sort h2 {
+    color: #6DC400;
+}
+
+.cenaa {
+    flex: 2;
+}
+
+.kat, .mesto {
+    flex: 1;
+    text-align: left;
+
+}
+
+.kat label {
+    margin-right: 15rem;
+}
+
+.rad {
+    flex: 1.5;
+}
+
+.zbozi > div {
+    margin: 0 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.zbozi > h1 {
+    color: #6DC400;
+    margin: 1rem 8rem;
+
+}
+
+.item {
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0.1rem 0.5rem rgba(79, 141, 0, 0.15);
+    width: 12rem;
+
+}
+
+.item img {
+    width: 6rem;
+    margin: 0 3rem;
+}
+
+.item h2 {
+    font-size: 100%;
+}
+
+.id {
+    font-size: 60%;
+    margin: 0;
+    text-align: left;
+}
+
+.pcena {
+    text-align: right;
+    font-size: 80%;
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.cena {
+    color: #6DC400;
+    font-size: 180%;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("/data/ProximaNova.otf");
+}
+body{
+    font-family: 'ProximaNova', sans-serif;
+}
+
+
+.menu {
+    display: flex;
+    margin: 0.5rem 8rem;
+}
+
+.logo {
+    padding-right: 2rem;
+}
+
+.menu a {
+    flex: 1;
+    /*padding-right: 1rem;*/
+}
+
+.menu > nav {
+    padding: 1rem 0;
+
+}
+
+.menu > nav > a {
+    text-decoration: none;
+    color: black;
+    padding: 0 0.5rem;
+}
+
+.menu > nav > a > img {
+    height: 1rem;
+    /*scale: 20%;*/
+}
+
+.reg {
+    border: solid #D8E4C8 1.70954px;
+    border-radius: 59px;
+    background-color: #FCFFF9;
+    text-align: center;
+    vertical-align: center;
+    /* margin-top: auto;
+     margin-bottom: auto;*/
+    margin: auto 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+.reg > img {
+    /*padding-top: 2rem;*/
+    position: absolute;
+}
+
+.log {
+    border: solid #D8E4C8 1.70954px;
+    border-radius: 59px;
+    background-color: #6DC400;
+    text-align: center;
+    vertical-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: white;
+
+}
+
+.log > img {
+    /*padding-top: 2rem;*/
+    position: absolute;
+}

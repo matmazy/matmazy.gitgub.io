@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<?php include "header.php" ?>
+<main>
+    <div>
+        <div class="fr">
+            <form action="login.php">
+                <div class="a" style="display: block" >
+                    <h2>Přidej se do naší komunity sousede</h2>
+                    <h1>Registrace</h1>
+                    <div class="fb">
+                        <a href="facebook.com">
+                            <img src="data/fbIco.svg">
+                            <p>Přihlásit se přes Facebook</p>
+                        </a>
+                    </div>
+                    <div class="g">
+                        <a href="google.com">
+                            <img src="data/GoogleIco.svg">
+                            <p>Přihlásit se přes Google</p>
+                        </a>
+                    </div>
+                    <p>Nebo si účet vytvoř</p>
+                    <label>
+                        Jméno*
+                        <input type="text" placeholder="Uživatelské jméno">
+                    </label>
+                    <label>
+                        Email*
+                        <input type="text" placeholder="example@email.cz">
+                    </label>
+                    <label>
+                        Heslo*
+                        <input type="password" placeholder="Vaše heslo">
+                    </label>
+                    <label>
+                        Potvrzení hesla*
+                        <input type="password" placeholder="Vaše heslo">
+                    </label>
+                    <button class="btn"> Další krok</button>
+                    <!--onclick="function a"-->
+                </div>
+                <div class="b" style="display: none" >
+                    <h2>Doplň zbívající údaje sousede</h2>
+                    <h1>Registrace</h1>
+                    <label>
+                        Telefon*
+                        <input type="tel" placeholder="Telefon">
+                    </label>
+                    <label>
+                        Organizace*
+                        <input type="text" placeholder="Organizace">
+                    </label>
+                    <label>
+                        Adresa*
+                        <input type="text" placeholder="Adresa">
+                    </label>
+                    <label>
+                        Město*
+                        <input type="text" placeholder="Město">
+                    </label>
+                    <label>
+                        PSČ*
+                        <input type="number" placeholder="PSČ">
+                    </label>
+                    <label>
+                        Vyberte kraj*
+                        <select>
+                            <option disabled selected>Prosím vyberte</option>
+                            <option>Praha</option>
+                            <option>Středočeský kraj</option>
+                            <option>Jihočeský kraj</option>
+                            <option>Plzeňský kraj</option>
+                            <option>Karlovarský kraj</option>
+                            <option>Ústecky kraj</option>
+                            <option>Liberecký kraj</option>
+                            <option>Královéhradecký kraj</option>
+                            <option>Pardubický kraj</option>
+                            <option>Kraj Vysočina</option>
+                            <option>Jihomoravský kraj</option>
+                            <option>Zlínský kraj</option>
+                            <option>Olomoucký kraj</option>
+                            <option>Moravskoslezský kraj</option>
+                        </select>
+                    </label>
+                    <button class="btn">Další krok</button>
+                </div>
+                <div class="c" style="display: none" >
+                    <div class="ot">
+                        <h2>Chcete odebírat sousedský zpravodaj?</h2>
+                        <button class="btnY">Ano</button>
+                        <button class="btnN">Ne</button>
+                    </div>
+                    <div class="ot">
+                        <h2>Chcete zde nabízet věci?</h2>
+                        <button class="btnY">Ano</button>
+                        <button class="btnN">Ne</button>
+                    </div>
+                    <div class="check">
+                        <p>
+                            <input type="checkbox" required>
+                            Souhlasím s <a href="podminky.php">podmínkami užívání</a>
+                        </p>
+                    </div>
+                    <button class="btn">Dokončit registraci</button>
+                </div>
+            </form>
+            <p class="cUc">Už máš účet? <a href="login.php">Přihlaš se</a></p>
+        </div>
+        <div class="sc">
+            <img src="data/log1.svg">
+        </div>
+    </div>
+</main>
+<?php include "footer.php" ?>
+<script src="js/register.js"></script>
+</body>
+</html>

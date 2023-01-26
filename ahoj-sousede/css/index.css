@@ -1,0 +1,197 @@
+body {
+
+}
+
+main {
+    /*margin: 0 8rem;*/
+}
+main{
+    all: unset;
+}
+.search {
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0 9rem 3rem 9rem;
+    padding: 1rem;
+    border-radius: 4rem;
+
+
+}
+
+.search select, .search input, .search button {
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 2rem;
+    border: 0.05rem solid #D8E4C8;
+    background-color: #FCFFF9;
+}
+
+.search select {
+    float: left;
+    width: 10rem;
+}
+
+.search input {
+    background-image: url("../data/icoQuestion.svg");
+    background-repeat: no-repeat;
+    background-position: 0.5rem 0.8rem;
+    padding-left: 2.5rem;
+    background-color: #FCFFF9;
+    width: 50rem; /*28*/
+}
+
+.search button {
+    float: right;
+    background-color: #6DC400;
+    color: #FFFFFF;
+    text-align: center;
+    width: 15rem;
+}
+
+.img1 {
+    background-image: url("../data/backHome.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+}
+
+.menu2 {
+    text-decoration: none;
+    display: flex;
+    margin: 0 8rem;
+}
+
+.menu2 > a {
+    flex: 1;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem 2rem 0 2rem;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0.1rem 0.5rem rgba(109, 196, 0, 0.1);
+    height: 18rem;
+}
+
+.num {
+    display: block;
+    border: rgba(109, 196, 0, 0.1) solid 0.1rem;
+    background-color: rgba(109, 196, 0, 0.05);
+    border-radius: 5rem;
+    padding: 1rem 0.5rem;
+    width: 2rem;
+    color: #6DC400;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.menu2 > a > h2 {
+    text-align: center;
+    color: #6DC400;
+    font-size: 120%;
+}
+
+.menu2 > a > a {
+    text-align: center;
+    font-size: 70%;
+
+}
+
+.p {
+    height: 6rem;
+}
+
+.greenblock {
+    background-color: #6DC400;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 2rem;
+    padding: 1rem;
+    border-radius: 3rem;
+
+}
+
+.img2 {
+
+
+}
+
+.img2 > img {
+    flex: 1;
+    margin: 3rem 1%;
+}
+
+.services {
+    margin: 0 8rem;
+}
+
+.services > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+}
+
+.services > div > div {
+
+}
+
+.zbozi > select {
+    margin: 0 9rem;
+    padding: 1rem 1rem 1rem 2rem;
+    border-radius: 1rem;
+    border: 0.05rem solid #D8E4C8;
+    background-color: #FCFFF9;
+    width: 10rem;
+}
+
+.zbozi > div {
+    margin: 0 8rem;
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0.1rem 0.5rem rgba(79, 141, 0, 0.15);
+    width: 12rem;
+
+}
+
+.item img {
+    width: 6rem;
+    margin: 0 3rem;
+}
+
+.item h2 {
+    font-size: 100%;
+}
+
+.id {
+    font-size: 60%;
+    margin: 0;
+    text-align: left;
+}
+
+.pcena {
+    text-align: right;
+    font-size: 80%;
+    text-decoration: line-through;
+    color: #808080;
+}
+
+.cena {
+    color: #6DC400;
+    font-size: 180%;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}

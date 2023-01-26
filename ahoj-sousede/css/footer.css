@@ -1,0 +1,75 @@
+
+main {
+
+}
+
+footer {
+    background-image: url("../data/imgFooter.svg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 16rem;
+}
+
+.footer {
+    margin: 5rem 8rem;
+    display: flex;
+    overflow: auto;
+}
+.g{
+    color: #6DC400;
+}
+.first {
+    flex: 2;
+}
+
+.sec {
+    flex: 1;
+}
+
+.sec2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2 a {
+    display: inline-block;
+    box-sizing: border-box;
+    flex: 1;
+    margin: 0.3rem 0;
+    text-decoration: none;
+    color: black;
+}
+.up{
+    background-color: #6DC400;
+    border-radius: 2rem;
+    padding: 1rem 1.1rem;
+    margin: 1rem 0;
+}
+.footerFind{
+    margin: 0 8rem;
+    /*position: absolute;
+    top: 150rem;*/
+}
+.footerFind input{
+    padding: 1rem;
+    border: none;
+    border-bottom: 0.1rem solid #6DC400;
+}
+.footerFind button{
+    padding: 1rem;
+    background-color: #6DC400;
+    border: #6DC400;
+    border-radius: 1rem 1rem 0 0;
+}
+.social{
+    float: right;
+    margin: 0 8rem;
+    width: 2rem;
+    display: flex;
+    padding-right: 5rem ;
+}
+.social a{
+    padding: 1rem;
+}

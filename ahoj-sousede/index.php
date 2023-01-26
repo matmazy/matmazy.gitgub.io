@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- CSS only -->
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">-->
+
+</head>
+<body>
+<?php include "header.php" ?>
+<main>
+    <div class="img1">
+        <div class="search">
+            <form action="" method="post">
+                <select>
+                    <option><img src="data/icoTaska.svg"> Služba</option>
+                    <option><img src="data/icoTaska.svg"> Půjčovna</option>
+                    <option><img src="data/icoTaska.svg"> Bazar</option>
+                </select>
+                <input type="text" placeholder="Co hledáš?">
+                <button><img src="data/icoSipkaG.svg">Hledat</button>
+            </form>
+        </div>
+        <div class="menu2">
+            <a href="login.php">
+                <p class="num">1.</p>
+                <h2>Přihlaš se sousede</h2>
+                <p class="p">Každému z nás už se aspoň jednou stalo že mu chyběla věc kterou akutně potřeboval, třeba
+                    štafle,
+                    kupovat nové na 5 minut se nechce, Ahoj-sousede.cz vám pomůže v okolí najit souseda nebo půjčovnu
+                    která vám z ochotou půjčí . </p>
+                <p class="greenblock">Přihlaš se</p>
+            </a>
+            <a href="login.php">
+                <p class="num">2.</p>
+                <h2>Nabídni věci k půjčení</h2>
+                <p class="p">Možná i vy máte doma spoustu věci které vám jen leží v garáži, a padá na ně prach, a vy ani
+                    nevíte že
+                    by vám mohly vydělávat peníze, právě vaše nůžky na živy plot by pomohly sousedovy a vám by se
+                    vrátily 50kč za 1den.</p>
+                <p class="greenblock">Registruj se</p>
+            </a>
+            <a href="login.php">
+                <p class="num">3.</p>
+                <h2>Vydělej si pár kaček</h2>
+                <p class="p">Už zůstal jen jeden krok, aby jste se stali součástí nové platformy Ahoj-sousede.cz. Tímto
+                    krokem je
+                    registrace zdarma. Staňte se součástí inovativního projektu, který nabízí vám nové možnosti a
+                    vydělávejte bez rizika !</p>
+                <p class="greenblock">Vydělávej</p>
+            </a>
+        </div>
+    </div>
+    <div class="img2">
+        <img src="data/img2.svg"
+    </div>
+    <!-- <div class="services">
+         <h1>Konkrétní služby</h1>
+         <div>
+             <div>
+                 <img src="">
+                 <h2>Půjčovna</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+             <div>
+                 <img src="">
+                 <h2>Bazar</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+             <div>
+                 <img src="">
+                 <h2>Služby</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+             <div>
+                 <img src="">
+                 <h2>Reality</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+             <div>
+                 <img src="">
+                 <h2>Nové zboží</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+             <div>
+                 <img src="">
+                 <h2>Ubytování</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+             <div>
+                 <img src="">
+                 <h2>Restaurace</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae commodi consequuntur
+                     deleniti
+                     eius porro, quam temporibus ut voluptates. Accusamus accusantium assumenda dolores laboriosam
+                     perferendis quia repellendus repudiandae veniam voluptatem.</p>
+             </div>
+         </div>
+     </div>-->
+    <div class="zbozi">
+        <select>
+            <option>Služby</option>
+            <option>Půjčovna</option>
+            <option>Bazar</option>
+        </select>
+        <div>
+            <a href="produkt.php" class="item">
+                <div>
+                    <img class="imgZ" src="data/hasak.svg">
+                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                    <p class="id">id nuber</p>
+                    <p class="pcena">999Kč</p>
+                    <p class="cena">899Kč</p>
+                </div>
+            </a>
+            <a href="produkt.php" class="item">
+                <div>
+                    <img class="imgZ" src="data/hasak.svg">
+                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                    <p class="id">id nuber</p>
+                    <p class="pcena">999Kč</p>
+                    <p class="cena">899Kč</p>
+                </div>
+            </a>
+            <a href="produkt.php" class="item">
+                <div>
+                    <img class="imgZ" src="data/hasak.svg">
+                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                    <p class="id">id nuber</p>
+                    <p class="pcena">999Kč</p>
+                    <p class="cena">899Kč</p>
+                </div>
+            </a>
+            <a href="produkt.php" class="item">
+                <div>
+                    <img class="imgZ" src="data/hasak.svg">
+                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                    <p class="id">id nuber</p>
+                    <p class="pcena">999Kč</p>
+                    <p class="cena">899Kč</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</main>
+<?php include "footer.php" ?>
+</body>
+</html>
